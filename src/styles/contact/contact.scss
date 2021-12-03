@@ -1,0 +1,42 @@
+.contact-us{
+  margin-top: 200px;
+  a{
+    i{
+      font-size: 100px;
+      margin: 50px 10px 10px;
+      transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+        }
+    }
+  }
+  h4{
+    margin: 50px;
+  }
+  .fa-github {
+    color: #fcfadb;
+  }
+  .fa-linkedin {
+    color: #0072b1;
+  }
+  form{
+    label{
+      margin: 30px 30px 30px 0;
+    }
+    input, textarea{
+      border-radius: 10px;
+      color: black;
+    }
+    .submit{
+      border-radius: 7px;
+      font-size: 20px;
+      margin: 30px auto;
+      background-color: #0072b1;
+      width:fit-content;
+      transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+        }
+    }
+  }
+}

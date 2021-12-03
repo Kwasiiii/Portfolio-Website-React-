@@ -1,0 +1,93 @@
+.projects{
+  background-color: black;
+  text-align: center;
+  padding-top: 100px;
+  .carousel-div{
+    width: fit-content;
+    margin: 30px auto;
+    .carousel{
+      width: 50vw;
+    }
+  }
+  .projects-card{
+    .row{
+      width: fit-content;
+      margin: 50px auto 0;
+      .card1 {
+        background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.52), rgba(0, 0, 0, 0.73)), url("https://i.imgur.com/1qpI4yN.png");
+        @extend %backgroundedits;
+        height: 500px;
+        width: 500px;
+        margin: 0 15px;
+        border-radius: 10px;
+        display: flex;
+        // border: 5px solid rgb(193, 129, 11);
+        box-shadow: 0px 2px 12px rgba(0 0 0 / 20%);
+        p {
+          font-size: 15px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          max-width: 500px;
+          color: white;
+          margin: 0 auto;
+        }
+        transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      .card2 {
+        background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.52), rgba(0, 0, 0, 0.73)), url("https://i.imgur.com/Q6ESkTU.png");
+        @extend %backgroundedits;
+        height: 500px;
+        width: 500px;
+        margin: 0 15px;
+        border-radius: 10px;
+        display: flex;
+        // border: 5px solid rgb(193, 129, 11);
+        box-shadow: 0px 2px 12px rgba(0 0 0 / 20%);
+        p {
+          font-size: 15px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          max-width: 500px;
+          color: white;
+          margin: 0 auto;
+        }
+        transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+      .card3 {
+        background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.52), rgba(0, 0, 0, 0.73)), url("https://i.imgur.com/JWyX3oy.png");
+        @extend %backgroundedits;
+        height: 500px;
+        width: 500px;
+        margin: 0 15px;
+        border-radius: 10px;
+        display: flex;
+        // border: 5px solid rgb(193, 129, 11);
+        box-shadow: 0px 2px 12px rgba(0 0 0 / 20%);
+        p {
+          font-size: 15px;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          max-width: 500px;
+          color: white;
+          margin: 0 auto;
+        }
+        transition: 0.4s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
