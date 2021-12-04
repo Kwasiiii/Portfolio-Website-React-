@@ -1,6 +1,6 @@
 .about-header{
   max-width: 1736px;
-  padding-top: 200px;
+  padding-top: 100px;
   margin: 0px auto 0;
   height: calc(100vh - 40px);
   h1{
@@ -30,6 +30,24 @@
             margin-right: 50px;
           }
         }
+      }
+    }
+    .fab-icon{
+      a{
+        i{
+          font-size: 100px;
+          margin: 50px 10px 10px;
+          transition: 0.4s ease-in-out;
+            &:hover {
+              transform: scale(1.05);
+            }
+        }
+      }
+      .fa-github {
+        color: #fcfadb;
+      }
+      .fa-linkedin {
+        color: #0072b1;
       }
     }
   }

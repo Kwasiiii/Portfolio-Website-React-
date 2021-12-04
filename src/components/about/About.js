@@ -20,6 +20,10 @@ const About = () => {
               <p className="after"> After graduating I was eager to learn more languages and explore programming outside my degree syllabus. General Assembly was able to provide this and help build my confidence in applying and using these technologies in the working world.</p>
               <p>I am looking to take an active role within a diverse team where curiosity, creativity, and perseverance are encouraged.</p>
             </div>
+            <div className="fab-icon d-flex">
+              <a href="https://www.linkedin.com/in/kwasi-appiah-kubi/" rel="noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
+              <a href="https://github.com/Kwasiiii" rel="noreferrer" target="_blank"><i className="fab fa-github"></i></a>
+            </div>
           </div>
           <div className="col-6">
             <div className="tech">
